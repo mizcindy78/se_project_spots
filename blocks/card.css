@@ -1,6 +1,8 @@
 .card {
   max-width: 413px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease,
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
     background-color 0.3s ease;
 }
 .card:hover {
@@ -26,7 +28,7 @@
   background-color: transparent;
   opacity: 0.4;
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
   }
