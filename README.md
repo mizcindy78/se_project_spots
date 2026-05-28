@@ -1,21 +1,6 @@
-# Project 3: Spots
+#Spots Stage 2 (with code review):
+##This spots project follows the layout provided with figma which shows different screen views for mobile, laptop and desktop devices. 
+I have used AI Dot for tripleten and Chatgpt to help with reviewing the correct codes for the project spots. 
+<img width="1240" height="614" alt="Screenshot_28-5-2026_111122_127 0 0 1" src="https://github.com/user-attachments/assets/af31eb62-e627-4544-8cb9-12bc270dc068" /> 
+Project Pitch Video check out this video http://loom.com/share/0ebb80ca40ff4df2953d84c055aeaa92, where i describe my project and some challenges I faced while building it. 
 
-### Overview  
-
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
