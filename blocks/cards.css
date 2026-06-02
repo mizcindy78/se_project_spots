@@ -1,5 +1,6 @@
 .cards {
-  padding-top: 20px;
+  padding: 20px 0 40px;
+  border-bottom: 1px solid #21212166;
 }
 
 .cards__list {
@@ -8,14 +9,8 @@
   padding: 0;
   display: grid;
   justify-content: center;
-  gap: 40px 20px;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-}
-@media screen and (min-width: 1320px) {
-  .cards__list {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
-  }
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, 413px);
 }
 .block {
   text-overflow: ellipsis;
