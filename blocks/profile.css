@@ -7,9 +7,6 @@
   color: #212121;
   font: 500 32px/1 Poppins;
   margin: 0 0 12px;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 1;
   display: -webkit-box;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -35,8 +32,6 @@
   color: white;
   padding: 12px 24px;
   font-size: 16px;
-}
-.profile__add-btn {
   cursor: pointer;
   transition: opacity 150ms ease;
 }
@@ -57,17 +52,17 @@
 }
 .profile__edit-btn {
   margin-top: auto;
-}
-.profile__edit-btn:hover {
-  cursor: pointer;
   display: flex;
   align-items: center;
   gap: 8px;
-  opacity: 0.7;
   font: 500 16px/1 Poppins;
   background: transparent;
   border: none;
   transition: opacity 0.2s ease;
+  cursor: pointer;
+}
+.profile__edit-btn:hover {
+  opacity: 0.7;
 }
 
 @media screen and (max-width: 627px) {
@@ -104,10 +99,10 @@
     margin: 0;
     width: 100%;
     display: flex;
+    justify-content: center;
     max-width: 288px;
     padding: 18px 32px;
     font-size: 16px;
     border-radius: 8px;
-    background-color: #212121;
   }
 }

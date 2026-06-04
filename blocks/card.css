@@ -1,9 +1,5 @@
 .card {
   max-width: 413px;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease,
-    background-color 0.3s ease;
 }
 .card__title {
   font: 500 20px/1.2 Poppins;
@@ -16,6 +12,9 @@
 @media screen and (max-width: 627px) {
   .card__title {
     max-width: 235px;
+  }
+  .card__image {
+    height: 288px;
   }
 }
 .card__image {
@@ -42,9 +41,4 @@
 }
 .card__like-button:hover {
   opacity: 0.9;
-}
-@media screen and (max-width: 627px) {
-  .card__image {
-    height: 288px;
-  }
 }
