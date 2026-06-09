@@ -4,21 +4,25 @@
 }
 
 .cards__list {
-  list-style-type: none;
+  list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  justify-content: center;
   gap: 40px 20px;
-  grid-template-columns: repeat(auto-fit, 413px);
+  grid-template-columns: repeat(3, 1fr);
 }
 .block {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
-@media screen and (max-width: 627px) {
+@media screen and (max-width: 1320px) {
   .cards__list {
-    grid-template-columns: repeat(auto-fit, 288px);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 630px) {
+  .cards__list {
+    grid-template-columns: 1fr;
   }
 }

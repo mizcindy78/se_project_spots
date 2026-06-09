@@ -9,14 +9,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-@media screen and (max-width: 627px) {
-  .card__title {
-    max-width: 235px;
-  }
-  .card__image {
-    height: 288px;
-  }
-}
+
 .card__image {
   height: 413px;
   width: 100%;
@@ -41,4 +34,18 @@
 }
 .card__like-button:hover {
   opacity: 0.9;
+}
+
+@media screen and (max-width: 627px) {
+  .card {
+    max-width: 100%;
+  }
+  .card__title {
+    font-size: 16px;
+    max-width: 100%;
+  }
+  .card__image {
+    height: auto;
+    width: 100%;
+  }
 }
