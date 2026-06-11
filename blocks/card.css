@@ -45,7 +45,7 @@
     max-width: 100%;
   }
   .card__image {
-    height: auto;
+    height: 288px;
     width: 100%;
   }
 }
