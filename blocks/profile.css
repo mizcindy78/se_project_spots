@@ -86,7 +86,7 @@
   }
 
   .profile__column {
-    margin: 0 0 20px;
+    margin: 0;
     align-items: center;
   }
 
@@ -99,6 +99,8 @@
   .profile__description {
     max-width: 288px;
     font-size: 16px;
+    margin-right: 0;
+    margin-bottom: 32px;
   }
 
   .profile__add-btn {
