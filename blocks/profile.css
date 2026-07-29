@@ -27,21 +27,31 @@
 }
 
 .profile__add-btn {
+<<<<<<< HEAD
   display: flex;
   align-items: center;
   justify-content: center;
+=======
+>>>>>>> fd48cd688e03fbf13b2cd21a7297514f919d2cf2
   height: 52px;
   margin-top: auto;
   margin-left: auto;
   background-color: #212121;
+<<<<<<< HEAD
   color: #fcf5e5;
+=======
+  color: white;
+>>>>>>> fd48cd688e03fbf13b2cd21a7297514f919d2cf2
   padding: 12px 24px;
   font-size: 16px;
   cursor: pointer;
   transition: opacity 150ms ease;
   border-radius: 8px;
   border: none;
+<<<<<<< HEAD
   gap: 8px;
+=======
+>>>>>>> fd48cd688e03fbf13b2cd21a7297514f919d2cf2
 }
 .profile__add-btn:hover,
 .profile__add-btn:focus,
