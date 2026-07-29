@@ -24,15 +24,10 @@
   justify-content: space-between;
 }
 .card__like-button {
-<<<<<<< HEAD
   height: 20px;
   width: 23px;
   padding: 0;
   margin: 0;
-=======
-  height: 23px;
-  width: 20px;
->>>>>>> fd48cd688e03fbf13b2cd21a7297514f919d2cf2
   border: none;
   background-color: transparent;
   opacity: 0.4;
