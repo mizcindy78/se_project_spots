@@ -1,6 +1,10 @@
 /* responsive design */
 .modal {
   visibility: hidden;
+  opacity: 0;
+  transition:
+    opacity 0.5s ease,
+    visibility 0.5s ease;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
@@ -15,6 +19,7 @@
 
 .modal_is-opened {
   visibility: visible;
+  opacity: 1;
 }
 .modal__container {
   max-width: 730px;
