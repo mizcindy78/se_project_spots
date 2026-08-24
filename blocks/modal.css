@@ -28,13 +28,25 @@
   background-color: #fff;
   padding: 32px 50px;
   position: relative;
+  box-sizing: border-box;
 }
 .modal__close-btn {
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  transition: opacity 0.12s ease;
   position: absolute;
   top: 32px;
   right: 50px;
   width: 40px;
   height: 40px;
+}
+.modal__close-btn:hover {
+  opacity: 0.8;
+}
+.modal__close-btn:focus {
+  box-shadow: 0 0 0 3px #000;
 }
 .modal__title {
   margin: 0 0 32px;
@@ -75,9 +87,27 @@
   padding: 18px 32px;
   background-color: #212121;
   color: #fcf5e5;
+  cursor: pointer;
+  transition: background-color 0.12s ease;
+}
+.modal__submit-btn:hover {
+  background-color: #000;
 }
 @media screen and (max-width: 320px) {
   .modal__container {
+    width: 288px;
+    height: 274px;
     padding: 16px 8px;
+    border-radius: 16px;
+  }
+  .modal__title {
+    font-size: 20px;
+  }
+  .modal__close-btn {
+    top: 66px;
+    right: 8px;
+  }
+  .modal__input {
+    font-size: 16px;
   }
 }
