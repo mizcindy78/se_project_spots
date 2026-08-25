@@ -72,6 +72,7 @@
   padding: 16px 8px;
   border: 1px solid #212121;
   border-radius: 8px;
+  box-sizing: border-box;
 }
 .modal__input::placeholder {
   color: #2121214d;
@@ -89,22 +90,21 @@
   color: #fcf5e5;
   cursor: pointer;
   transition: background-color 0.12s ease;
+  border: none;
 }
 .modal__submit-btn:hover {
   background-color: #000;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 627px) {
   .modal__container {
-    width: 288px;
-    height: 274px;
     padding: 16px 8px;
     border-radius: 16px;
   }
   .modal__title {
-    font-size: 20px;
+    font-size: 16px;
   }
   .modal__close-btn {
-    top: 66px;
+    top: 16px;
     right: 8px;
   }
   .modal__input {

@@ -18,7 +18,6 @@ const cardCaptionInput = newPostModal.querySelector("#card-caption-input");
 const profileNameEl = document.querySelector(".profile__name");
 const profileDescriptionEl = document.querySelector(".profile__description");
 
-console.log("editProfileModal");
 console.log("modal__close-btn");
 console.log("newPostModal");
 console.log("profile__add-btn");
