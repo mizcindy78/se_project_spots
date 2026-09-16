@@ -48,6 +48,13 @@ console.log("modal__close-btn");
 console.log("newPostModal");
 console.log("profile__add-btn");
 
+function openModal(modal) {
+  modal.classList.add("modal_is-opened");
+}
+function closeModal(modal) {
+  modal.classList.remove("modal_is-opened");
+}
+
 newPostForm.addEventListener("submit", handleNewPostFormSubmit);
 newPostBtn.addEventListener("click", function () {
   openModal(newPostModal);
@@ -79,13 +86,6 @@ function handleEditProfileFormSubmit(evt) {
   profileDescriptionEl.textContent = editProfileDescriptionInput.value;
   closeModal(editProfileModal);
 }
-function openModal(modal) {
-  modal.classList.add("modal_is-opened");
-}
-function closeModal(modal) {
-  modal.classList.remove("modal_is-opened");
-}
-
 initialCards.forEach(function (item) {
   console.log(item.name);
   console.log(item.link);
