@@ -1,5 +1,6 @@
 .card {
   max-width: 413px;
+  position: relative;
 }
 .card__title {
   font:
@@ -26,6 +27,15 @@
   align-items: center;
   justify-content: space-between;
 }
+.card__delete-button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
 .card__like-button {
   height: 20px;
   width: 23px;
@@ -36,6 +46,13 @@
   opacity: 0.4;
   cursor: pointer;
   transition: opacity 0.2s ease;
+}
+.card__like-button_active:hover {
+  opacity: 0.4;
+}
+.card__like-button_active {
+  background-image: url(../images/heartlikebutton.svg);
+  opacity: 1;
 }
 .card__like-button:hover {
   opacity: 0.9;

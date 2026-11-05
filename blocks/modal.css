@@ -17,12 +17,18 @@
   padding: 10px;
 }
 
-.modal_is-opened {
+.modal__is-opened {
   visibility: visible;
   opacity: 1;
 }
+.modal__container-image {
+  max-width: 100%;
+}
+.modal__image {
+  max-width: 80vw;
+  height: 80vh;
+}
 .modal__container {
-  max-width: 730px;
   width: 100%;
   border-radius: 8px;
   background-color: #fff;
@@ -30,6 +36,7 @@
   position: relative;
   box-sizing: border-box;
 }
+
 .modal__close-btn {
   border: none;
   background: transparent;
