@@ -82,15 +82,11 @@ function getCardElement(data) {
   return cardElement;
 }
 
-console.log("modal__close-btn");
-console.log("newPostModal");
-console.log("profile__add-btn");
-
 function openModal(modal) {
-  modal.classList.add("modal__is-opened");
+  modal.classList.add("modal_is-opened");
 }
 function closeModal(modal) {
-  modal.classList.remove("modal__is-opened");
+  modal.classList.remove("modal_is-opened");
 }
 
 newPostForm.addEventListener("submit", handleNewPostFormSubmit);
@@ -111,6 +107,7 @@ function handleNewPostFormSubmit(evt) {
     link: cardImageInput.value,
   });
   cardsList.prepend(newCardElement);
+  newPostForm.reset();
 }
 
 editProfileForm.addEventListener("submit", handleEditProfileFormSubmit);

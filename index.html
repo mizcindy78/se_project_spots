@@ -45,7 +45,7 @@
           <ul class="cards__list">
             <template id="card-template">
               <li class="card">
-                <img src="" alt="" class="card__image" />
+                <img class="card__image" />
                 <button type="button" class="card__delete-button">
                   <img
                     src="./images/DefaultGreyBin.svg"
@@ -55,13 +55,7 @@
                 </button>
                 <div class="card__content">
                   <h2 class="card__title"></h2>
-                  <button type="button" class="card__like-button">
-                    <img
-                      src="./images/heart.svg"
-                      alt="Like icon"
-                      class="card__like-icon"
-                    />
-                  </button>
+                  <button type="button" class="card__like-button"></button>
                 </div>
               </li>
             </template>
@@ -114,6 +108,7 @@
                 type="url"
                 class="modal__input"
                 placeholder="Place a link to the picture"
+                required
               />
             </label>
 
@@ -124,6 +119,7 @@
                 type="text"
                 class="modal__input"
                 placeholder="Type your caption"
+                required
               />
             </label>
             <button type="submit" class="modal__submit-btn">Save</button>
@@ -135,7 +131,7 @@
           <button type="button" class="modal__close-btn">
             <img src="./images/closebtn.svg" alt="Close icon" />
           </button>
-          <img src="" alt="" class="modal__image" />
+          <img class="modal__image" />
           <p class="modal__caption"></p>
         </div>
       </div>
